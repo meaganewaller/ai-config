@@ -1,0 +1,8 @@
+agent:
+  active: "rails-architect"
+
+vendors:
+  claude:
+    temperature: 0.0
+  codex:
+    temperature: 0.1

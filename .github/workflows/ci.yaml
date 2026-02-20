@@ -1,0 +1,14 @@
+name: Validate AI Configuration
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-rust@v1
+      - uses: cargo install --git https://github.com/meaganewaller/agentic
+      - run: agentic validate --layers ./layers

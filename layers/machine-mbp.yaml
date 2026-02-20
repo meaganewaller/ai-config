@@ -1,0 +1,3 @@
+vendors:
+  claude:
+    allow_shell: true

@@ -1,0 +1,14 @@
+agents_repo: "./agents"
+
+agent:
+  active: "rails-architect"
+
+vendors:
+  claude:
+    enabled: true
+    model: "claude-3-opus"
+    temperature: 0.2
+    allow_shell: false
+  codex:
+    model: "gpt-4.1"
+    temperature: 0.3
