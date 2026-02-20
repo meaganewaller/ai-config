@@ -89,6 +89,8 @@ agentic print --resolved
 
 Interactive explain:
 
+![agentic explain screenshot](./docs/assets/agentic-explain.png)
+
 ```
 agentic build --profile work --explain
 ```
